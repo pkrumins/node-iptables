@@ -14,13 +14,13 @@ Here is an example usage:
         chain : 'INPUT',
         protocol : tcp,
         src : '10.1.1.5',
-        port : 34567
+        dport : 34567
     });
 
     iptables.deny({
         chain : 'INPUT',
         protocol : 'tcp',
-        port : 34567
+        dport : 34567
     });
 
 This allows connections to port 34567 from 10.1.1.5 and denies connections to
