@@ -1,4 +1,4 @@
-var spawn = require('process').spawn;
+var spawn = require('child_process').spawn;
 
 exports.allow = function (rule) {
     rule.target = 'ACCEPT';
