@@ -1,0 +1,21 @@
+{
+    "name" : "iptables",
+    "version" : "0.0.1",
+    "description" : "Run iptables commands from node.js",
+    "main" : "./index.js",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pkrumins/node-iptables.git"
+    },
+    "keywords" : [
+        "iptables",
+        "firewall"
+    ],
+    "author" : {
+        "name" : "Peteris Krumins",
+        "email" : "peteris.krumins@gmail.com",
+        "url" : "http://www.catonmat.net"
+    },
+    "license" : "whatevs",
+    "engine" : { "node" : ">=0.4.0" }
+}
