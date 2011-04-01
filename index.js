@@ -14,6 +14,8 @@ function iptables (rule) {
     var cmd = 'iptables';
     var args = [];
 
+    if (!rule.chain) rule.chain = 'INPUT';
+
     if (rule.chain) args = args.concat(["-I", rule.chain]);
     if (rule.protocol) args = args.concat(["-p", rule.protocol]);
     if (rule.src) args = args.concat(["--src", rule.src]);

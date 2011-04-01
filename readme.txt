@@ -11,7 +11,6 @@ Here is an example usage:
     var iptables = require('iptables');
 
     iptables.allow({
-        chain : 'INPUT',
         protocol : tcp,
         src : '10.1.1.5',
         dport : 34567,
@@ -19,7 +18,6 @@ Here is an example usage:
     });
 
     iptables.deny({
-        chain : 'INPUT',
         protocol : 'tcp',
         dport : 34567,
         sudo : true
