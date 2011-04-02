@@ -17,13 +17,13 @@ Here is an example usage:
         sudo : true
     });
 
-    iptables.deny({
+    iptables.drop({
         protocol : 'tcp',
         dport : 34567,
         sudo : true
     });
 
-This allows connections to port 34567 from 10.1.1.5 and denies connections to
+This allows connections to port 34567 from 10.1.1.5 and drops connections from
 the same port from everyone else.
 
 ------------------------------------------------------------------------------
