@@ -1,7 +1,7 @@
 This is a node.js module for controlling iptables. It's very basic just for
 what we need at http://browserling.com.
 
-It was written by Peteris Krumins (peter@catonmat.net).
+It was written by Peteris Krumins (peter@catonmat.net, @pkrumins on twitter).
 His blog is at http://www.catonmat.net  --  good coders code, great reuse.
 
 ------------------------------------------------------------------------------
@@ -34,6 +34,6 @@ http://www.catonmat.net/blog/traffic-accounting-with-iptables
 
 
 Sincerely,
-Peteris Krumins
+Peteris Krumins (twitter: @pkrumins)
 http://www.catonmat.net
 
