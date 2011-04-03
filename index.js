@@ -45,6 +45,7 @@ function iptablesArgs (rule) {
     if (rule.dst) args = args.concat(["--dst", rule.dst]);
     if (rule.dport) args = args.concat(["--dport", rule.dport]);
     if (rule.sport) args = args.concat(["--sport", rule.sport]);
+    if (rule.target) args = args.concat(["-j", rule.target]);
 
     return args;
 }
