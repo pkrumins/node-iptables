@@ -43,8 +43,10 @@ function iptablesArgs (rule) {
     if (rule.protocol) args = args.concat(["-p", rule.protocol]);
     if (rule.src) args = args.concat(["--src", rule.src]);
     if (rule.dst) args = args.concat(["--dst", rule.dst]);
-    if (rule.dport) args = args.concat(["--dport", rule.dport]);
     if (rule.sport) args = args.concat(["--sport", rule.sport]);
+    if (rule.dport) args = args.concat(["--dport", rule.dport]);
+    if (rule.in) args = args.concat(["-i", rule.in]);
+    if (rule.out) args = args.concat(["-o", rule.out]);
     if (rule.target) args = args.concat(["-j", rule.target]);
 
     return args;
