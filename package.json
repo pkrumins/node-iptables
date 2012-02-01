@@ -1,6 +1,6 @@
 {
     "name" : "iptables",
-    "version" : "0.0.3",
+    "version" : "0.0.4",
     "description" : "Run iptables commands from node.js",
     "main" : "./index.js",
     "repository" : {
@@ -9,16 +9,20 @@
     },
     "keywords" : [
         "iptables",
-        "firewall"
+        "firewall",
+        "linux"
     ],
     "author" : {
         "name" : "Peteris Krumins",
         "email" : "peteris.krumins@gmail.com",
-        "url" : "http://www.catonmat.net"
+        "url" : "http://www.catonmat.net",
+        "twitter" : "http://twitter.com/pkrumins"
     },
     "dependencies" : {
         "lazy" : ">= 1.0.6"
     },
-    "license" : "whatevs",
-    "engine" : { "node" : ">=0.4.0" }
+    "license" : "MIT",
+    "engine" : {
+        "node" : ">=0.4.0"
+    }
 }
